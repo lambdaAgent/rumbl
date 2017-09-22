@@ -1,0 +1,4 @@
+<b><%= first_name(@user) %></b> (<%= @user.id %>)
+<b><%= @user.username %></b> (<%= @user.id %>)
+<label>Password hash</label>
+<%= @user.password_hash %>
